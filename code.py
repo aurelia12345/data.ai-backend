@@ -11,7 +11,7 @@ parser.add_argument("--DATE_END", help="End date for data collection", type=str)
 parser.add_argument("--DIMENSIONS", help="the dimensions from which data is required", type=str)
 parser.add_argument("--TOKEN", help="Authorization token", type=str)
 parser.add_argument("--DB_USERNAME", help="username for mysqldb connection", type=str)
-parser.add_argument("--DB_PASSWORD", help="password for mysqldb connection", type=str, default="")
+parser.add_argument("--DB_PASSWORD", help="password for mysqldb connection", type=str)
 parser.add_argument("--DB_NAME", help="database name for mysqldb connection", type=str)
 parser.add_argument("--DB_HOSTNAME", help="host for mysqldb connection", type=str, default="localhost")
 
